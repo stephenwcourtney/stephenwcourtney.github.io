@@ -1,0 +1,446 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: Medium;
+  line-height: 1.8em;
+  letter-spacing: 0.6px;
+  padding: 0 0 5rem 0;
+  margin: 0px;
+  width: 100vw;
+  overflow-x: hidden;
+  position: absolute;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.wrapper {
+  margin: auto;
+  width: 960px;
+  justify-content: center;
+  align-items: center;
+  vertical-align: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+#mainHeader {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  display: inline;
+  width: 100%;
+}
+#mainHeader h1 {
+  font-size: Large;
+  margin-left: 1.5rem; 
+  user-select: none;
+}
+.frontPagetitle {
+  font-size: xx-large;
+  user-select: none;
+}
+#mainNav {
+  background: rgb(255, 255, 255);
+  color: black;
+  display: inline;
+}
+#mainNav ul {
+  padding: 0;
+  margin-left: 30px;
+  list-style: none;
+}
+#mainNav li {
+  display: inline;
+  padding: 25px;
+  user-select: none;
+}
+#mainNav a {
+  color: rgb(175, 175, 175);
+  text-decoration: none;
+}
+#mainNav a.active {
+  color: black;
+  text-decoration: none;
+}
+#mainNav li a:hover {
+  color: rgb(121, 121, 121);;
+}
+#stephenPicture {
+  width: 10rem;
+  border-radius: 10px;
+  margin-left: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  pointer-events: none;
+  user-select: none;
+  display: inline-block;
+}
+#stephenPicturemobile {
+  width: 9rem;
+  border-radius: 10px;
+  margin-left: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  pointer-events: none;
+  user-select: none;
+  display: none;
+}
+hr {
+  display: flex;
+  margin-top: 20px;
+  width: 80%;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+#socialMedia {
+  width: 70%;
+  margin: auto auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.fa {
+  padding: 12px;
+  margin-inline: 10px;
+  margin-bottom: 1rem;
+  font-size: 25px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 70%;
+}
+.fa:hover {
+  opacity: 0.8;
+}
+.fa-linkedin {
+  background: #0e76a8;
+  color: white;
+}
+.fa-github {
+  background: #4078c0;
+  color: white;
+}
+.fa-paper-plane {
+  background: #EA4335;
+  color: white;
+}
+.fa-instagram {
+  background: #833AB4;
+  color: white;
+}
+.fa-arrow-left {
+  background: #4c8bf5;
+  color: white;
+}
+.bio {
+  width: 80%;
+  margin: auto auto;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  vertical-align: center;
+}
+.featuredItems {
+  width: 70%;
+  margin: auto auto;
+  padding-top: 0.5rem;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  vertical-align: center;
+}
+#resource {
+  margin-top: -1.5rem;
+}
+.frontPagesubtitle {
+  font-size: xx-large;
+  width: 70%;
+  margin: auto auto;
+  display: flex;
+  margin-top: 2rem;
+  vertical-align: center;
+  user-select: none;
+  justify-content: none;
+}
+.projectTitle {
+  text-align: none;
+}
+#projectPic {
+  width: 13rem;
+  border-radius: 10px;
+  pointer-events: none;
+  margin-right: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#projectPicmobile {
+  display: none;
+}
+h2 a {
+  color: #4c8bf5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+h2 a:hover {
+  color: #82affc;
+}
+#mobileHR {
+  display: none;
+}
+#mainNavmobile {
+  display: none;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 823px) {
+  .wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width: auto;
+  }
+  .bio {
+    width: 85%;
+    text-align: justify;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+  #projectPic {
+    width: 5rem;
+    border-radius: 5px;
+    pointer-events: none;
+    margin-right: 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  #stephenPicture {
+    display: none;
+  }
+  #stephenPicturemobile {
+    display: inline-block;
+    width: 50%;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+  }
+  #frontPagehr {
+    display: none;
+  }
+  .fas {
+    padding: 10px;
+    margin-inline: 10px;
+    font-size: 25px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 70%;
+  }
+  #mobileHR {
+    display: flex;
+    width: 80%;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-bottom: 2.5rem;
+    margin-top: 0.75rem;
+    }
+  .frontPagesubtitle {
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .projectTitle {
+    text-align: center;
+  } 
+  #projectPicmobile {
+    width: 13rem;
+    border-radius: 10px;
+    pointer-events: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 5px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #projectPic {
+    display: none;
+  }
+  #mainNav {
+    display: none;
+  }
+  #mainNavmobile {
+    background: transparent;
+    color: black;
+    display: inline;
+  }
+  #mainNavmobile ul {
+    white-space: nowrap;
+    list-style: none;
+    padding: 0;
+  }
+  #mainNavmobile li {
+    display: inline-block;
+    padding-left: 24px;
+    user-select: none;
+  }
+  #mainNavmobile a {
+    color: rgb(175, 175, 175);
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+  }
+  #mainNavmobile a.active {
+    color: black;
+    text-decoration: none;
+  }
+  #mainNavmobile li a:hover {
+    color: rgb(121, 121, 121);;
+  }
+  #mainHeader h1 {
+    font-size: Large;
+    user-select: none;
+    width: 100px;
+    margin-left: 1rem; 
+  }
+}
+
+
+
+/* Publications */
+
+.blogPost {
+  width: 80%;
+  margin: 1.5rem auto 2rem auto;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 10px;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+.blogPosttitle {
+  font-size: xx-large;
+  user-select: none;
+  border-radius: 5px;
+}
+.blogPost:hover {
+  box-shadow: rgba(99, 99, 99, 0.4) 0px 2px 8px 0px;
+}
+h1 a {
+  color: #4c8bf5;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+h1 a:hover {
+  color: #82affc;
+}
+.blogPostdate {
+  font-size: medium;
+  color: rgb(175, 175, 175);
+  font-weight: normal;
+}
+.blogPostdate:hover {
+  color: rgb(121, 121, 121);
+  user-select: none;
+}
+.blogPostreadMore a{
+  font-size: medium;
+  color: rgb(175, 175, 175);
+  font-weight: normal;
+  text-decoration: none;
+}
+.blogPostreadMore a:hover {
+  color: rgb(121, 121, 121);
+  user-select: none;
+}
+#return {
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  vertical-align: center;
+  align-items: center;
+  text-align: center;
+}
+.blogText {
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  vertical-align: center;
+}
+
+
+
+/* Photography */
+
+.row {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  padding: 1.5rem 8px;
+}
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 8px;
+}
+.column img {
+  margin-top: 16px;
+  vertical-align: middle;
+  width: 100%;
+  box-shadow: rgba(99, 99, 99, 0.8) 0px 2px 8px 0px;
+  border-radius: 5px;
+}
+.copyright {
+  position: absolute;
+  width: 100%;
+  color: rgb(175, 175, 175);;
+  text-align: center;
+  user-select: none;
+  padding-bottom: 2rem;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 823px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .row {
+    width: auto;
+    margin: auto;
+    display: flex;
+    padding: 1rem 2px;
+  }
+  .column img {
+    margin-top: 4px;
+    vertical-align: middle;
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+  }
+  .column {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 2px;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: Medium;
+    line-height: 1.8em;
+    letter-spacing: 0.6px;
+    margin: 0;
+    padding-bottom: 0.4rem;
+  }
+}
