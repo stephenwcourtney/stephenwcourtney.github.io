@@ -15,7 +15,8 @@ body {
   color: white;
 }
 .wrapper {
-  margin: auto;
+  margin-left:auto;
+  margin-right:auto;
   width: 960px;
   justify-content: center;
   align-items: center;
