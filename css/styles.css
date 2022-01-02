@@ -103,7 +103,7 @@ hr {
   justify-content: center;
   margin-top: 2rem;
 }
-.fa {
+.fas {
   padding: 12px;
   margin-bottom: 1rem;
   margin-left: 8px;
@@ -114,26 +114,40 @@ hr {
   text-decoration: none;
   border-radius: 100%;
 }
-.fa:hover {
+.fab {
+  padding: 12px;
+  margin-bottom: 1rem;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 25px;
+  min-width: 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+}
+.fas:hover {
   opacity: 0.8;
 }
-.fa-linkedin {
+.fab:hover {
+  opacity: 0.8;
+}
+.fab.fa-linkedin-in {
   background: #0e76a8;
   color: white;
 }
-.fa-github {
+.fab.fa-github {
   background: #4078c0;
   color: white;
 }
-.fa-paper-plane {
+.fas.fa-paper-plane {
   background: #EA4335;
   color: white;
 }
-.fa-instagram {
+.fab.fa-instagram {
   background: #833AB4;
   color: white;
 }
-.fa-arrow-left {
+.fas.fa-arrow-left {
   background: #4c8bf5;
   color: white;
 }
@@ -233,7 +247,7 @@ h2 a:hover {
   #frontPagehr {
     display: none;
   }
-  .fa {
+  .fas {
     padding: 12px;
     margin-left: 8px;
     margin-right: 8px;
@@ -282,11 +296,12 @@ h2 a:hover {
   #mainNavmobile ul {
     white-space: nowrap;
     list-style: none;
+    margin-left: -3px;
     padding: 0;
   }
   #mainNavmobile li {
     display: inline-block;
-    padding-left: 24px;
+    padding-left: 28px;
     user-select: none;
   }
   #mainNavmobile a {
