@@ -1,6 +1,31 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto Thin'),
+       local('Roboto-Thin'),
+       url(https://fonts.gstatic.com/s/roboto/v15/Jzo62I39jc0gQRrbndN6nXYhjbSpvc47ee6xR_80Hnw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'),
+       local('Roboto-Light'),
+       url(https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfSZ2oysoEQEeKwjgmXLRnTc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'),
+       local('Roboto-Regular'),
+       url(https://fonts.gstatic.com/s/roboto/v15/QHD8zigcbDB8aPfIoaupKOvvDin1pK8aKteLpeZ5c0A.ttf) format('truetype');
+}
 body {
-  font-family: Roboto, sans-serif; font-weight: 400;
+  font-family: 'Roboto', sans-serif;
   font-size: Medium;
+  font-weight: 400;
   line-height: 1.8em;
   letter-spacing: 0.6px;
   padding: 0 0 5rem 0;
@@ -320,6 +345,7 @@ h2 a:hover {
     font-size: Large;
     user-select: none;
     width: 100px;
+    min-width: 100px;
     margin-left: 1rem; 
   }
 }
