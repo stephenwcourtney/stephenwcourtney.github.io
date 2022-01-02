@@ -181,6 +181,7 @@ hr {
 }
 .projectTitle {
   text-align: none;
+  margin-bottom: -3px;
 }
 #projectPic {
   width: 13rem;
@@ -268,9 +269,6 @@ h2 a:hover {
     justify-content: center;
     margin-bottom: 2rem;
   }
-  .projectTitle {
-    text-align: center;
-  } 
   #projectPicmobile {
     width: 13rem;
     border-radius: 10px;
