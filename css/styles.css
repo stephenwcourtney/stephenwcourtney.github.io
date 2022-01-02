@@ -81,12 +81,6 @@ body {
   display: inline-block;
 }
 #stephenPicturemobile {
-  width: 9rem;
-  border-radius: 10px;
-  margin-left: 2rem;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  pointer-events: none;
-  user-select: none;
   display: none;
 }
 hr {
@@ -239,10 +233,14 @@ h2 a:hover {
   }
   #stephenPicturemobile {
     display: inline-block;
-    width: 50%;
+    width: 175px;
     margin: auto auto;
     display: flex;
     justify-content: center;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    pointer-events: none;
+    user-select: none;
   }
   #frontPagehr {
     display: none;
@@ -458,7 +456,7 @@ h1 a:hover {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: Medium;
-    line-height: 1.8em;
+    line-height: 1.6em;
     letter-spacing: 0.6px;
     margin: 0;
     padding-bottom: 2rem;
