@@ -346,6 +346,7 @@ h2 a:hover {
   font-size: xx-large;
   user-select: none;
   border-radius: 5px;
+  text-align: left;
 }
 .blogPost:hover {
   box-shadow: rgba(99, 99, 99, 0.4) 0px 2px 8px 0px;
