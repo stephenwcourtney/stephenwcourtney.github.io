@@ -465,3 +465,8 @@ h1 a:hover {
     padding-bottom: 2rem;
   }
 }
+
+video {
+  display: block;
+  margin: auto;
+}
